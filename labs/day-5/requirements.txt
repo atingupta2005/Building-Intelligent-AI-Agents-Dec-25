@@ -1,0 +1,64 @@
+# ================================
+# Python Runtime
+# ================================
+# Tested and working on Python 3.11.0
+# Do NOT use Python 3.12 yet for LangChain ecosystem
+
+# ================================
+# Core LangChain Ecosystem
+# ================================
+langchain==1.2.0
+langchain-core==1.2.2
+langchain-community==0.4.1
+langchain-openai==1.1.5
+
+# Required for text splitting and prompt utilities
+langchain-text-splitters==1.1.0
+
+# ================================
+# LangGraph (Optional but Installed)
+# ================================
+# Even if not used directly, ecosystem is stable with this present
+langgraph==1.0.5
+langgraph-prebuilt==1.0.5
+langgraph-checkpoint==3.0.1
+
+# ================================
+# LLM & Tokenization
+# ================================
+openai==2.13.0
+tiktoken==0.12.0
+
+# ================================
+# Async + HTTP (LangChain internals)
+# ================================
+httpx==0.28.1
+aiohttp==3.13.2
+anyio==4.12.0
+
+# ================================
+# Data Validation (Pydantic v2 – REQUIRED)
+# ================================
+pydantic==2.12.5
+pydantic-settings==2.12.0
+typing_extensions==4.15.0
+
+# ================================
+# Search / Research Tooling
+# ================================
+ddgs==9.10.0
+requests==2.32.5
+beautifulsoup4==4.14.3
+
+# ================================
+# Jupyter / Notebook Environment
+# ================================
+ipykernel==7.1.0
+ipython==9.8.0
+jupyterlab==4.5.1
+
+# ================================
+# Utilities
+# ================================
+python-dotenv==1.2.1
+tqdm==4.67.1
